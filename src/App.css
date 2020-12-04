@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.App-header {
+.app-header {
   position: relative;
   width: 100%;
   margin: 50px 0;
@@ -103,6 +103,32 @@ justify-content: space-between;
 } */
 
 /*  Responsive  */
+
+@media (max-width: 420px) {
+
+  .App {
+    width: 90%;
+  }
+
+  .app-header h1 {
+    font-size: 24px;
+  }
+
+  input {
+    font-size: 26px;
+    padding: 5px;
+    width: 120px;
+  }
+
+  .controls {
+    padding: 20px 15px;
+    }
+
+  .units {
+    margin-left: 10px;
+    padding: 5px 2px;
+  }
+}
 
 @media (min-width: 900px) {
 
